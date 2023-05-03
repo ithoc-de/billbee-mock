@@ -1,0 +1,78 @@
+{
+  "Paging": {
+    "Page": 0,
+    "TotalPages": 0,
+    "TotalRows": 0,
+    "PageSize": 0
+  },
+  "ErrorMessage": "string",
+  "ErrorCode": 0,
+  "ErrorDescription": "string",
+  "Data": [
+    {
+      "Id": 0,
+      "Name": "string",
+      "Email": "string",
+      "Tel1": "string",
+      "Tel2": "string",
+      "Number": 0,
+      "PriceGroupId": 0,
+      "LanguageId": 0,
+      "DefaultMailAddress": {
+        "Id": 0,
+        "TypeId": 0,
+        "TypeName": "string",
+        "SubType": "string",
+        "Value": "string"
+      },
+      "DefaultCommercialMailAddress": {
+        "Id": 0,
+        "TypeId": 0,
+        "TypeName": "string",
+        "SubType": "string",
+        "Value": "string"
+      },
+      "DefaultStatusUpdatesMailAddress": {
+        "Id": 0,
+        "TypeId": 0,
+        "TypeName": "string",
+        "SubType": "string",
+        "Value": "string"
+      },
+      "DefaultPhone1": {
+        "Id": 0,
+        "TypeId": 0,
+        "TypeName": "string",
+        "SubType": "string",
+        "Value": "string"
+      },
+      "DefaultPhone2": {
+        "Id": 0,
+        "TypeId": 0,
+        "TypeName": "string",
+        "SubType": "string",
+        "Value": "string"
+      },
+      "DefaultFax": {
+        "Id": 0,
+        "TypeId": 0,
+        "TypeName": "string",
+        "SubType": "string",
+        "Value": "string"
+      },
+      "VatId": "string",
+      "Type": 0,
+      "MetaData": [
+        {
+          "Id": 0,
+          "TypeId": 0,
+          "TypeName": "string",
+          "SubType": "string",
+          "Value": "string"
+        }
+      ],
+      "ArchivedAt": "2023-04-26T09:18:44.081Z",
+      "RestoredAt": "2023-04-26T09:18:44.081Z"
+    }
+  ]
+}

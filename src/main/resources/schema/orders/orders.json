@@ -1,0 +1,305 @@
+{
+  "Paging": {
+    "Page": 0,
+    "TotalPages": 0,
+    "TotalRows": 0,
+    "PageSize": 0
+  },
+  "ErrorMessage": "string",
+  "ErrorCode": 0,
+  "ErrorDescription": "string",
+  "Data": [
+    {
+      "RebateDifference": 0,
+      "ShippingIds": [
+        {
+          "BillbeeId": 0,
+          "ShippingId": "string",
+          "Shipper": "string",
+          "Created": "2023-04-29T05:02:22.956Z",
+          "TrackingUrl": "string",
+          "ShippingProviderId": 0,
+          "ShippingProviderProductId": 0,
+          "ShippingCarrier": 0,
+          "ShipmentType": 0
+        }
+      ],
+      "AcceptLossOfReturnRight": true,
+      "Id": "string",
+      "OrderNumber": "string",
+      "State": 1,
+      "VatMode": 0,
+      "CreatedAt": "2023-04-29T05:02:22.956Z",
+      "ShippedAt": "2023-04-29T05:02:22.956Z",
+      "ConfirmedAt": "2023-04-29T05:02:22.956Z",
+      "PayedAt": "2023-04-29T05:02:22.956Z",
+      "SellerComment": "string",
+      "Comments": [
+        {
+          "Id": 0,
+          "FromCustomer": true,
+          "Text": "string",
+          "Name": "string",
+          "Created": "2023-04-29T05:02:22.956Z"
+        }
+      ],
+      "InvoiceNumberPrefix": "string",
+      "InvoiceNumberPostfix": "string",
+      "InvoiceNumber": 0,
+      "InvoiceDate": "2023-04-29T05:02:22.956Z",
+      "InvoiceAddress": {
+        "BillbeeId": 0,
+        "FirstName": "string",
+        "LastName": "string",
+        "Company": "string",
+        "NameAddition": "string",
+        "Street": "string",
+        "HouseNumber": "string",
+        "Zip": "string",
+        "City": "string",
+        "CountryISO2": "string",
+        "Country": "string",
+        "Line2": "string",
+        "Email": "string",
+        "State": "string",
+        "Phone": "string"
+      },
+      "ShippingAddress": {
+        "BillbeeId": 0,
+        "FirstName": "string",
+        "LastName": "string",
+        "Company": "string",
+        "NameAddition": "string",
+        "Street": "string",
+        "HouseNumber": "string",
+        "Zip": "string",
+        "City": "string",
+        "CountryISO2": "string",
+        "Country": "string",
+        "Line2": "string",
+        "Email": "string",
+        "State": "string",
+        "Phone": "string"
+      },
+      "PaymentMethod": 1,
+      "ShippingCost": 0,
+      "TotalCost": 0,
+      "AdjustmentCost": 0,
+      "AdjustmentReason": "string",
+      "OrderItems": [
+        {
+          "BillbeeId": 0,
+          "TransactionId": "string",
+          "Product": {
+            "OldId": "string",
+            "Id": "string",
+            "Title": "string",
+            "Weight": 0,
+            "SKU": "string",
+            "SkuOrId": "string",
+            "IsDigital": true,
+            "Images": [
+              {
+                "Url": "string",
+                "IsDefaultImage": true,
+                "Position": 0,
+                "ExternalId": "string"
+              }
+            ],
+            "EAN": "string",
+            "PlatformData": "string",
+            "TARICCode": "string",
+            "CountryOfOrigin": "string",
+            "BillbeeId": 0,
+            "Type": 0
+          },
+          "Quantity": 0,
+          "TotalPrice": 0,
+          "TaxAmount": 0,
+          "TaxIndex": 0,
+          "Discount": 0,
+          "Attributes": [
+            {
+              "Id": "string",
+              "Name": "string",
+              "Value": "string",
+              "Price": 0
+            }
+          ],
+          "GetPriceFromArticleIfAny": true,
+          "IsCoupon": true,
+          "ShippingProfileId": "string",
+          "DontAdjustStock": true,
+          "UnrebatedTotalPrice": 0,
+          "SerialNumber": "string",
+          "InvoiceSKU": "string"
+        }
+      ],
+      "Currency": "string",
+      "Seller": {
+        "Platform": "string",
+        "BillbeeShopName": "string",
+        "BillbeeShopId": 0,
+        "Id": "string",
+        "Nick": "string",
+        "FirstName": "string",
+        "LastName": "string",
+        "FullName": "string",
+        "Email": "string"
+      },
+      "Buyer": {
+        "Platform": "string",
+        "BillbeeShopName": "string",
+        "BillbeeShopId": 0,
+        "Id": "string",
+        "Nick": "string",
+        "FirstName": "string",
+        "LastName": "string",
+        "FullName": "string",
+        "Email": "string"
+      },
+      "UpdatedAt": "2023-04-29T05:02:22.956Z",
+      "TaxRate1": 0,
+      "TaxRate2": 0,
+      "BillBeeOrderId": 0,
+      "BillBeeParentOrderId": 0,
+      "VatId": "string",
+      "Tags": [
+        "string"
+      ],
+      "ShipWeightKg": 0,
+      "LanguageCode": "string",
+      "PaidAmount": 0,
+      "ShippingProfileId": "string",
+      "ShippingProviderId": 0,
+      "ShippingProviderProductId": 0,
+      "ShippingProviderName": "string",
+      "ShippingProviderProductName": "string",
+      "ShippingProfileName": "string",
+      "PaymentInstruction": "string",
+      "IsCancelationFor": "string",
+      "PaymentTransactionId": "string",
+      "DistributionCenter": "string",
+      "DeliverySourceCountryCode": "string",
+      "CustomInvoiceNote": "string",
+      "CustomerNumber": "string",
+      "PaymentReference": "string",
+      "ShippingServices": [
+        {
+          "DisplayName": "string",
+          "DisplayValue": "string",
+          "RequiresUserInput": true,
+          "ServiceName": "string",
+          "typeName": "string",
+          "PossibleValueLists": [
+            {
+              "key": "string",
+              "value": [
+                {
+                  "key": 0,
+                  "value": "string"
+                }
+              ]
+            }
+          ],
+          "CanBeConfigured": true
+        }
+      ],
+      "Customer": {
+        "Id": 0,
+        "Name": "string",
+        "Email": "string",
+        "Tel1": "string",
+        "Tel2": "string",
+        "Number": 0,
+        "PriceGroupId": 0,
+        "LanguageId": 0,
+        "DefaultMailAddress": {
+          "Id": 0,
+          "TypeId": 0,
+          "TypeName": "string",
+          "SubType": "string",
+          "Value": "string"
+        },
+        "DefaultCommercialMailAddress": {
+          "Id": 0,
+          "TypeId": 0,
+          "TypeName": "string",
+          "SubType": "string",
+          "Value": "string"
+        },
+        "DefaultStatusUpdatesMailAddress": {
+          "Id": 0,
+          "TypeId": 0,
+          "TypeName": "string",
+          "SubType": "string",
+          "Value": "string"
+        },
+        "DefaultPhone1": {
+          "Id": 0,
+          "TypeId": 0,
+          "TypeName": "string",
+          "SubType": "string",
+          "Value": "string"
+        },
+        "DefaultPhone2": {
+          "Id": 0,
+          "TypeId": 0,
+          "TypeName": "string",
+          "SubType": "string",
+          "Value": "string"
+        },
+        "DefaultFax": {
+          "Id": 0,
+          "TypeId": 0,
+          "TypeName": "string",
+          "SubType": "string",
+          "Value": "string"
+        },
+        "VatId": "string",
+        "Type": 0,
+        "MetaData": [
+          {
+            "Id": 0,
+            "TypeId": 0,
+            "TypeName": "string",
+            "SubType": "string",
+            "Value": "string"
+          }
+        ],
+        "ArchivedAt": "2023-04-29T05:02:22.956Z",
+        "RestoredAt": "2023-04-29T05:02:22.956Z"
+      },
+      "History": [
+        {
+          "Created": "2023-04-29T05:02:22.956Z",
+          "EventTypeName": "string",
+          "Text": "string",
+          "EmployeeName": "string",
+          "TypeId": 0
+        }
+      ],
+      "Payments": [
+        {
+          "BillbeeId": 0,
+          "TransactionId": "string",
+          "PayDate": "2023-04-29T05:02:22.956Z",
+          "PaymentType": 0,
+          "SourceTechnology": "string",
+          "SourceText": "string",
+          "PayValue": 0,
+          "Purpose": "string",
+          "Name": "string"
+        }
+      ],
+      "LastModifiedAt": "2023-04-29T05:02:22.956Z",
+      "ArchivedAt": "2023-04-29T05:02:22.956Z",
+      "RestoredAt": "2023-04-29T05:02:22.956Z",
+      "ApiAccountId": 0,
+      "ApiAccountName": "string",
+      "MerchantVatId": "string",
+      "CustomerVatId": "string",
+      "IsFromBillbeeApi": true
+    }
+  ]
+}
